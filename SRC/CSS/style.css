@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+  body { 
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-family: "Outfit", serif;
+    color: hsl(30, 10%, 34%);
+  }
+
+.container {
+    max-width: 700px;
+    margin: 2rem auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 12px;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    overflow: hidden;
+  }
+
+.image-container img{
+    margin-bottom: 1.5rem;
+    width:100% ;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    font-family: "Young Serif", serif;
+    
+    color:hsl(14, 45%, 36%);
+}
+
+p.subtitle{
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+div.preparation {
+    background-color: #fbeff6;
+    border-bottom: 3px solid #e6b8d2;
+    margin-bottom: 1.5rem;
+    padding: 1rem ;
+    border-radius: 8px;
+}
+
+h2.preparation-time {
+    padding-bottom: 0.5rem;
+    color: hsl(332, 51%, 32%);
+}
+
+ul.preparation li{
+    margin: 0 1rem;
+    padding: 0.5rem;
+    
+}
+
+div.ingredients {
+    background-color: #fbeff6;
+    border-bottom: 3px solid #e6b8d2;
+    margin-bottom: 1.5rem;
+    padding: 1rem ;
+    border-radius: 8px;
+}
+
+h1.ingredients {
+    padding-bottom: 0.5rem;
+}
+
+ul.ingredients-list li{
+    margin: 0 1rem;
+    padding: 0.5rem;
+}
+
+div.instructions {
+    background-color: #fbeff6;
+    border-bottom: 3px solid #e6b8d2;
+    margin-bottom: 1.5rem;
+    padding: 1rem ;
+    border-radius: 8px;
+}
+
+h1.instructions {
+    padding-bottom: 0.5rem;
+}
+
+ol.instructions li{
+    margin: 0 1rem;
+    padding: 0.5rem;
+}
+
+div.nutrition-container {
+    background-color: #fbeff6;
+    border-bottom: 3px solid #e6b8d2;
+    margin-bottom: 1.5rem;
+    padding: 1rem ;
+    border-radius: 8px;
+}
+
+h1.nutrition {
+    padding-bottom: 0.5rem;
+}
+
+ol li::marker,
+ul li::marker {
+    color:hsl(14, 45%, 36%);
+  }
+
+table {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.nutrition td {
+    border-bottom: 1px solid #c8c8c8;
+    padding: 10px 0 10px 30px;
+}
+
+td.value {
+    font-weight: bolder;
+    color:hsl(14, 45%, 36%);
+}
